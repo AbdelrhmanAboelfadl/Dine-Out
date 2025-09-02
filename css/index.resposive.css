@@ -34,6 +34,7 @@ header .carousel-inner .carousel-item:nth-of-type(3) .col .box .boxicons img {
     font-size: 21px;
     font-weight: 500;
 }
+
 #About .container .row .col p {
     font-size: 13px;
 }
@@ -84,9 +85,7 @@ section#Team .container .row .col .item .chefinfo {
 #Order .container .row .col .orderform {
     width: 100%!important;
 }
-#Order .container .row .col form .container {
-    width: 100%;
-}
+
 #Order .container .row .col:nth-of-type(2) {
     display: none;
 }
@@ -143,7 +142,14 @@ header .carousel-inner .carousel-item:nth-of-type(2) .container .row .col img {
 ::-webkit-scrollbar{
     width:0;
 }
-
+#Product .row  .col{
+    padding: 20px;
+}
+#Product .row  .col img{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
 }
 @media (min-width: 371px) and (max-width: 1300px) {
 .container{

@@ -251,7 +251,7 @@ header .carousel-inner .carousel-item:nth-of-type(2)::before {
 }
 
 header .carousel-inner .carousel-item:nth-of-type(2) .container .row .col .img2 {
-    transform: translateY(-100%);
+    transform: translateY(-300%);
     transition-duration: 1s;
     transition-delay: 0.3s;
 }
@@ -271,7 +271,7 @@ header .carousel-inner .carousel-item:nth-of-type(2) .container .row .col .img2 
 }
 
 header .carousel-inner .carousel-item:nth-of-type(2) .container .row .col img {
-    transform: translateY(-150%);
+    transform: translateY(-300%);
     transition-duration: 0.5s;
     transition-delay: 0.8s;
     position: relative;
@@ -371,7 +371,7 @@ header .carousel-inner .carousel-item:nth-of-type(3) .col .box .boxicons img {
 }
 
 header .carousel-inner .carousel-item:nth-of-type(3) .row .col .img{
-    transform: translateX(-200%)!important;
+    transform: translateX(-300%)!important;
     transition: transform 1s!important;
 }
 
@@ -520,18 +520,20 @@ header .carousel-inner .carousel-item.active:nth-of-type(3) .col .box hr {
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
 }
 #Product .row{
-    width: max-content;
+    width:100%;
+    margin: 0;
 }
 #Product .row .col{
     background: #0F2027;
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
     background: linear-gradient(to right, #2C5364, #203A43, #17303a);
     text-align: center;
-    padding-block: 10px;
+    padding-block: 15px;
 }
 #Product .row  .col img{
-    width: 70.7px;
-    margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
 }
 #Product .row  .col h4{
     text-align: center;
@@ -693,6 +695,9 @@ section#Menu .container-fluid .nav-link i{
 }
 section#Menu .container-fluid .nav-link.active i{
     right: -5px;
+}
+section#Menu .tab-content .tab-pane .container-fluid .row .item{
+    width: 260px;
 }
 section#Menu .container-fluid .nav-link.active img{
     transform: scale(1);
