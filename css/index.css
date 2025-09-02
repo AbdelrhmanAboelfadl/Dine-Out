@@ -815,7 +815,7 @@ section#Team .container .row .col .item:hover .chefinfo h4{
     margin-top: 15px;
 }
 #Order .container .row .col .orderform{
-    background-image: url("/images/chef-bg.png");
+    background-image: url("../images/chef-bg.png");
     background-position: center;
     background-size: cover;
     background-color: var(--secound-color);
